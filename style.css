@@ -133,7 +133,7 @@ a:hover {
 /************************** FÆLLES FOR TEMAERNE - IMAGE OVERLAY **********************************/
 
 
-#item_name {
+.item_name {
     position: relative;
     width: 100%;
 }
@@ -157,7 +157,7 @@ a:hover {
     background-color: white;
 }
 
-#item_name:hover .overlay {
+.item_name:hover .overlay {
     opacity: 0;
 }
 
@@ -226,7 +226,7 @@ video {
     display: flex;
 }
 
-#item_name {
+.item_name {
     flex-basis: 240px;
     flex-grow: 1;
     display: flex;
@@ -882,7 +882,7 @@ video {
     font-size: 9vw;
 }
 
-#tema_01 #item_name {
+#tema_01 .item_name {
     position: relative;
 }
 
@@ -1045,7 +1045,7 @@ video {
 /****************************** HER SLUTTER TEMA 2 ANIMATION H1 **************************************/
 
 
-#tema_02 #item_name {
+#tema_02 .item_name {
     position: relative;
 }
 
@@ -1216,7 +1216,7 @@ video {
 
 /****************************** HER SLUTTER TEMA 3 ANIMATION H1 **************************************/
 
-#tema_03 #item_name {
+#tema_03 .item_name {
     position: relative;
 }
 
@@ -1393,7 +1393,7 @@ video {
 
 /****************************** HER SLUTTER TEMA 4 ANIMATION H1 **************************************/
 
-#tema_04 #item_name {
+#tema_04 .item_name {
     position: relative;
 }
 
